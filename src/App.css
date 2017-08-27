@@ -1,0 +1,57 @@
+body {
+  background: #003;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+  padding: 5%;
+}
+
+.App-title {
+  /*font-size: 26px;*/
+  background-color: white;
+  color: navyblue;
+}
+
+.widget {
+  background: #fff;
+  color: #173807;
+  width: 40%;
+  height: 160px;
+  margin: 20px;
+  padding: 8px 30px;
+  display: inline-block;
+  border-radius: 20px;
+  border-color: skyblue;
+  border-style: outset;
+  border-width: 10px;
+}
+
+.widget-details {
+  display: inline-block;
+  width: 70%;
+  text-align: justify;
+  font-size: large;
+}
+
+.widget-icon {
+  display: inline-block;
+  width: 30%;
+}
+.widget-icon img {
+  height: 100px;
+  vertical-align: super;
+}
+
+.widget span {
+  display: block;
+}
+
+.cancel {
+  width: 10px;
+  float: right;
+  font-size: larger;
+  color: orangered;
+  font-weight: bolder;
+}
