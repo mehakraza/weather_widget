@@ -11,7 +11,12 @@ body {
 .App-title {
   /*font-size: 26px;*/
   background-color: white;
-  color: navyblue;
+  color: cadetblue;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border-style: inset;
 }
 
 .widget {
@@ -54,4 +59,10 @@ body {
   font-size: larger;
   color: orangered;
   font-weight: bolder;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 50%;
+    margin: 0 auto;
 }
